@@ -7711,10 +7711,10 @@ textarea.form-control-lg {
   color: #E4D06B;
 }
 
-.text-primary:hover {
+/* .text-primary:hover {
   --bs-text-opacity: 1;
   color: #A98A33;
-}
+} */
 
 .text-secondary {
   --bs-text-opacity: 1;
@@ -7769,9 +7769,15 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+  text-decoration: none !important;
 }
 
 i.text-muted:hover {
+  --bs-text-opacity: 1;
+  color: #1E1D38 !important;
+}
+
+a.text-muted:hover {
   --bs-text-opacity: 1;
   color: #1E1D38 !important;
 }
